@@ -3,3 +3,12 @@
 
 .hero-art{background-image:linear-gradient(90deg,#080a0f44,transparent 42%),url('/sherlock-hero.png');background-position:center;background-size:cover;border-radius:8px;overflow:hidden}.hero-art:before{background:linear-gradient(0deg,#080a0f88,transparent 55%)}.detective,.float-card,.hero-art .art-caption{display:none}
 @media(max-width:650px){.hero-art{height:300px;background-position:58% center;margin-top:18px}}
+.logo-mark{display:block;width:29px;height:29px;object-fit:cover;object-position:center top;border-radius:50%}
+footer .logo-mark{width:27px;height:27px}
+.hero{margin-top:22px;border:1px solid #273044;border-radius:8px;background:#090e18;box-shadow:0 20px 70px #0006}
+.hero-copy{padding:58px 38px 48px}
+h1{font-size:clamp(45px,5.4vw,72px);line-height:.98}
+.detective-emoji{font-size:.42em;vertical-align:middle;margin-left:4px}
+.hero-features{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:28px;color:#8e97aa;font-size:9px}
+.hero-features span{display:inline-flex;align-items:center;gap:5px}
+@media(max-width:650px){.hero{margin-top:0}.hero-copy{padding:42px 20px 30px}.hero-features{gap:9px 12px}}
